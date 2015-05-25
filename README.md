@@ -1,5 +1,7 @@
 # Google Cloud Messaging
 
+[![Build Status](https://travis-ci.org/google/gcm.svg)](https://travis-ci.org/google/gcm)
+
 Google Cloud Messaging for Android (GCM) is a service that helps developers send
 data from servers to their Android applications on Android devices. The service
 provides a simple, lightweight mechanism that servers can use to tell mobile

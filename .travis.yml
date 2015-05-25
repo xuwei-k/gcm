@@ -1,0 +1,15 @@
+language: android
+
+sudo: false
+
+android:
+  components:
+    - build-tools-19.0.1
+
+env:
+  matrix:
+  - TEST=gcm-client
+  - TEST=gcm-server
+
+script:
+  - cd ${TEST} && TERM=dumb && ./test.sh
